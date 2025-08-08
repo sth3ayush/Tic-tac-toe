@@ -1,0 +1,168 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+header>h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #212529;
+    padding: 0;
+}
+
+header>h1>span {
+    color: #9D0208;
+}
+
+header>h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+header>div {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header>div>h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 15px;
+    color: #212529;
+}
+
+.turn-select {
+    width: 100px;
+    background-color: #e9ecef;
+    border: #000000 2px solid;
+    font-size: 20px;
+    text-align: center;
+    color: #212529;
+    border-radius: 5px;
+}
+
+.turn-select>option {
+    background-color: #f8f9fa;
+    color: #343A40;
+}
+
+.turn-select>option:last-child {
+    color: #9D0208;
+}
+
+.red {
+    color: #9D0208;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: #e9ecef;
+    gap: 5px;
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+.box {
+    background-color: #f8f9fa;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #212529;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover {
+    background-color: #dee2e6;
+}
+
+.pop-up {
+    cursor: grab;
+    background-color: #F8F9FA;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pop-up:active {
+    cursor: grabbing;
+}
+
+.pop-up>h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #343A40;
+}
+
+.btn {
+    background-color: #212529;
+    color: #F8F9FA;
+    font-weight: 400;
+    font-size: 15px;
+    height: 35px;
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #212529;
+    background-color: #F8F9FA;
+    border: 1px solid #212529;
+}
+
+.btn:active {
+    color: #F8F9FA;
+    background-color: #9D0208;
+    border: none;
+}
+
+.btn-align {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.reset-btn {
+    width: 150px;
+}
+
+.hidden {
+    display: none;
+}
