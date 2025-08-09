@@ -25,9 +25,11 @@ Get three X’s or O’s in a row (horizontal, vertical, or diagonal).
 
 1. The first player to align three symbols wins.
 
-   ![Regular Tic-Tac-Toe](screenshots/r-3t.png)
+   ![Regular Tic-Tac-Toe](screenshots/r-3t-1.png)
 
 1. If all cells are filled with no winner, the game is a draw.
+
+   ![Regular Tic-Tac-Toe](screenshots/r-3t-2.png)
 
 ### 2️⃣ Super Tic-Tac-Toe (Ultimate Tic-Tac-Toe Style)
 
