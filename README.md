@@ -31,11 +31,7 @@ Get three X’s or O’s in a row (horizontal, vertical, or diagonal).
 
 1. The first player to align three symbols wins.
 
-   ![Regular Tic-Tac-Toe](screenshots/r-3t-1.png)
-
 1. If all cells are filled with no winner, the game is a draw.
-
-   ![Regular Tic-Tac-Toe](screenshots/r-3t-2.png)
 
 ### 2️⃣ Super Tic-Tac-Toe (Ultimate Tic-Tac-Toe Style)
 
@@ -50,21 +46,11 @@ Win three “large” cells in a row (horizontal, vertical, or diagonal) by winn
     
     **Example:** If you play in the top-left cell of a mini-board, your opponent must play in the top-left mini-board of the large board.
 
-   ![Super Tic-Tac-Toe](screenshots/s-3t-1.png)
-
-   ![Super Tic-Tac-Toe](screenshots/s-3t-2.png)
-
 1. If the target mini-board is already won or full, the opponent can play in any mini-board.
-
-   ![Super Tic-Tac-Toe](screenshots/s-3t-3.png)
-
-   ![Super Tic-Tac-Toe](screenshots/s-3t-4.png)
 
 1. You win a large cell by winning the mini-board inside it.
 
 1. The first player to win three large cells in a row wins the game.
-
-   ![Super Tic-Tac-Toe](screenshots/s-3t-5.png)
 
 ### 3️⃣ Advanced Tic-Tac-Toe (Memory Challenge)
 
@@ -76,9 +62,5 @@ Same as regular Tic-Tac-Toe, but with a twist — you can only have a maximum of
 1. Players can place X or O only three times.
 
 1. When a player places a fourth mark, their oldest mark disappears.
-
-   ![Advanced Tic-Tac-Toe](screenshots/a-3t-1.png)
-
-   ![Advanced Tic-Tac-Toe](screenshots/a-3t-2.png)
 
 1. Players must remember previous placements and plan moves carefully.
